@@ -1,7 +1,7 @@
-$fallback-font-family: Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+$fallback-font-family: Helvetica, Arial, "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", sans-serif;
 $base-font-family: "Oswald", $fallback-font-family;
 $code-font-family: "inconsolata", Consolas, monospace, sans-serif;
-$article-font-family: "Crimson Text", $fallback-font-family;
+$article-font-family: "Lora", $fallback-font-family;
 
 $base-font-size: 16px;
 $small-font-size: $base-font-size * 0.875;
@@ -41,8 +41,6 @@ $black: #414141;
 $white: #ffffff;
 $text-color: #313232;
 $background-color: #F9F9F9;
-$brand-color: $material-teal;
-$accent-color: $material-orange;
 $grey-color: #828282;
 $blue: #3eb0ef;
 $green: #a4d037;
@@ -60,6 +58,9 @@ $dark-mode: lighten($darkgrey, 2%);
 $dark-mode-site-background: #090a0b;
 $dark-mode-post-background: #191b1f;
 $dark-mode-text-color: lighten($dark-mode-site-background, 80%);
+
+$brand-color: $material-blue-grey;
+$accent-color: $material-orange;
 
 $article-width: 728px;
 

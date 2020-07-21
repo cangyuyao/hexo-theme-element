@@ -1,6 +1,17 @@
 <div class="page-header">
-	<% if (is_tag()) { %>
-		- <%= page.tag %> -
+  <% if (is_tag()) { %>
+    <section class="page-header tag">
+      <h1>
+        Tag: <%= page.tag %></span>
+      </h1>
+    </section>
+  <% } %>
+  <% if (is_category()) { %>
+    <section class="page-header category">
+      <h1>
+        Category: <%= page.category %></span>
+      </h1>
+    </section>
 	<% } %>
 
 </div>

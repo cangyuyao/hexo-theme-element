@@ -8,7 +8,7 @@
   <div class="site-wrapper <%- siteWrapperClass %>">
     <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
     <script>document.getElementById("loading-bar").style.width="40%";</script>
-    <main id="main" class="clearfix">
+    <main id="site-main" class="clearfix">
       <%- body %>
       <script>document.getElementById("loading-bar").style.width="60%";</script>
     </main>

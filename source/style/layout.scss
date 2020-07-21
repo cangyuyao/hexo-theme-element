@@ -9,7 +9,12 @@
     text-align: center;
     margin-bottom: 20px;
     color: lighten($black, 30%);
-    font-size: 15px;
+
+    h1 {
+      font-size: 15px;
+      font-weight: 400;
+      font-family: inconsolata,Consolas,monospace,sans-serif;
+    }
   }
 }
 
